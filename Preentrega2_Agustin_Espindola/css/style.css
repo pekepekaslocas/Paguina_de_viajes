@@ -1,0 +1,606 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+/* experimento*/
+body::-webkit-scrollbar{
+    width: 7px;
+}
+
+body{
+    overflow-x:hidden;
+     overflow-y:scroll;
+    width: 100vw;
+    height: 100vh;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #4053ff;
+    border-radius: 5px;
+}
+
+/* modificamos logo y el usuario */
+
+.left  {
+    height: 40px;
+    margin-left: 50px;
+    width: 150px;
+    border-left: 3px solid #aaa;
+    border-right: 3px solid #aaa;
+    border-radius: 15px;
+}
+
+.left a .logo_item{
+    background-image: url(../assets/Logos/logo_company_vuelo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -14px;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.content_user{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    margin-right: 50px;
+    border:2px solid #73747a ;
+    border-radius: 20px;
+}
+
+
+.content_user a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #4053ff;
+}
+
+.content_user a i {
+    font-size: 15px;
+    padding-right: 4px;
+}
+
+.content_user a h4 {
+    font-size: 15px;
+    padding-left: 4px;
+}
+
+/* modificamos el nav */
+
+.content_bar {
+    border-top: 3px solid #aaa ;
+    border-bottom: 3px solid #aaa;
+    height: 50px; 
+}
+
+.link_item{
+    flex: 1 1 content;
+    width: 110px;
+    margin-left: 15px;
+}
+
+.content_link{
+    margin-top: 5px;
+}
+
+.content_link li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #4053ff;
+    
+}
+
+.content_link li a i {
+    font-size: 15px;
+    padding-right: 4px;
+}
+
+.content_link li a h4 {
+    font-size: 12px;
+    padding-left: 4px;
+    padding-top: 10px;
+}
+
+/* modificamos el cartel de bienvenida */
+
+.content_down {
+    background-image: url(../assets/fonde_de_binvenida.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 3px solid #aaa;
+    height: 200px;
+}
+
+.content_down h1 {
+    color: #2f3142d7;
+    font-size: 40px;
+    font-family: poppins ,sans-serif;
+    padding-top: 10px;
+
+}
+
+.content_down h2 {
+    color: #ffffff98;
+    font-size: 25px;
+    font-family: yellowtail ,sans-serif;
+    padding-bottom: 10px;
+}
+
+/* modificamos el section 1 */
+
+.content_info {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .info_1 div h3{
+      margin-bottom: 10px;
+      font-size: 30px;
+      color: #f22;
+  }
+  
+  .info_1 div{
+      width: 300px;
+      height: 150px;
+      font-size: 13px;
+  }
+  
+/* modificamos section 2 */
+
+.info_2{
+    background-image: url(../assets/72.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.info_2 div {
+    background-color: #aaaaaa86;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 10px 0px;
+    width: 300px;
+    height: 200px;
+    font-size: 13px;
+    border: 3px solid #aaa;
+   
+}
+
+.info_2 div h3{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+/* modificamos el section 3 */
+
+  .info_3 div h3{
+      margin-bottom: 10px;
+      font-size: 30px;
+      color: #f22;
+  }
+  
+  .info_3_1 div{
+      width: 300px;
+      height: 150px;
+      font-size: 12px;
+  }
+
+/* modificamos el footer */
+
+.content_footer_link li a i {
+    font-size: 20px;
+}
+
+.content_footer_link {
+    margin-top: 12px;
+}
+
+.content_footer_down {
+    background-color: #73747ac7;
+    border-top: 3px solid #73747a;
+    margin-left: 0px;
+   }
+   
+   .content_footer_item  {
+       margin: 15px 0px;
+       font-size: 14px;
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       font-family: "roboto" , sans-serif;
+       justify-content: center;
+       border-bottom: 3px solid #73747a;
+   
+   }
+   
+   .content_footer_item a {
+    font-size: 15px;
+    margin-bottom: 5px;
+   }
+   
+   .content_footer_item h5 {
+       font-size: 20px;
+   }
+
+
+.info_3_2{
+    display: none;
+    visibility: hidden;
+}
+
+ @media only screen and (min-width: 960px){
+   
+/* modificamos logo y el usuario */
+
+.content_up .left  {
+    height: 50px;
+    margin-left: 50px;
+    width: 200px;
+    border-left: 3px solid #aaa;
+    border-right: 3px solid #aaa;
+    border-radius: 15px;
+}
+
+.content_up .left a .logo_item{
+    background-image: url(../assets/Logos/logo_company_vuelo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -23px;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.content_user{
+    display: flex;
+    width: 135px;
+    height: 40px;
+    margin-right: 50px;
+    border:2px solid #73747a ;
+     border-radius: 20px;
+    transition:all 0.5s;
+}
+
+.content_user:hover {
+    background-color: #ccc;
+    border-color: #73747a;
+    border-color: #4053ff;
+    width: 138px;
+    height: 42px;
+    border-radius: 23px;
+    transition:all 0.5s;
+}
+
+.content_user:hover a {
+    color: #73747a;
+    transition:all 0.5s;
+}
+
+.content_user a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #4053ff;
+}
+
+.content_user a i {
+    font-size: 20px;
+    padding-right: 4px;
+}
+
+.content_user a h4 {
+    font-size: 20px;
+    padding-left: 4px;
+}
+
+/* modificamos el nav */
+
+.content_bar {
+    border-top: 3px solid #aaa ;
+    border-bottom: 3px solid #aaa;
+    height: 70px; 
+}
+
+.link_item{
+    width: 140px;
+    margin-left: 20px;
+    transition:all 1s;
+    border-radius: 20px;
+    border-right: 4px solid #aaaaaa00;
+    border-left: 4px solid #aaaaaa00;
+}
+
+.link_item:hover {
+    background-color: #ddd;
+    border-radius: 20px;
+    transition:all 1s;
+    width: 175px;
+    border-right: 3px solid #aaa;
+    border-left: 3px solid #aaa;
+}
+
+.link_item:hover a {
+    color: #2b39b6;
+    transition: 0.3s;
+}
+
+.content_link{
+    margin-top: 10px;
+}
+
+.content_link li a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #4053ff;
+    
+}
+
+.content_link li a i {
+    font-size: 25px;
+    padding-right: 4px;
+}
+
+.content_link li a h4 {
+    font-size: 18px;
+    padding-left: 4px;
+    padding-top: 10px;
+}
+
+/* modificamos el cartel de bienvenida */
+
+.content_down {
+    background-image: url(../assets/fonde_de_binvenida.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 3px solid #aaa;
+    height: 200px;
+}
+
+.content_down h1 {
+    color: #ffffff98;
+    font-size: 50px;
+    font-family: poppins ,sans-serif;
+    padding-top: 20px;
+
+}
+
+.content_down h2 {
+    color: #ffffff98;
+    font-size: 50px;
+    font-family: yellowtail ,sans-serif;
+    padding-bottom: 10px;
+}
+
+/* modificamos el section 1 */
+
+.content_info {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.info_1 div h3{
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #f22;
+}
+
+.info_1 div{
+    width: 300px;
+    height: 150px;
+    font-size: 15px;
+}
+
+/* modificamos section 2 */
+
+.info_2{
+    background-image: url(../assets/72.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -550px;
+}
+
+.info_2 div {
+    background-color: #aaaaaa86;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 10px 50px 10px 0px;
+    width: 300px;
+    height: 200px;
+    font-size: 15px;
+    border: 3px solid #aaa;
+   
+}
+
+.info_2 div h3{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+/* modificamos section 3 */
+
+.info_3 div {
+    background-color: #aaaaaace;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 10px 50px 10px 50px;
+    width: 300px;
+    height: 200px;
+    font-size: 14px;
+    border: 3px solid #aaa;
+}
+
+.info_3 div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.info_3_2{
+    display: inline;
+    visibility: visible;
+    }
+
+/* modificamos el footer */
+ 
+.content_footer_up {
+    border-top: 3px solid #73747a;
+    padding: 10px;
+}
+
+.content_footer_up .left  {
+    height: 50px;
+    margin-left: 50px;
+    width: 200px;
+    border-left: 3px solid #aaa;
+    border-right: 3px solid #aaa;
+    border-radius: 15px;
+}
+
+.content_footer_up .left a .logo_item{
+    background-image: url(../assets/Logos/logo_company_vuelo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -23px;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.content_footer_link li a{
+    border-right: 3px solid #aaaaaa00;
+    border-left: 3px solid #aaaaaa00;
+    border-radius: 20px;
+    width: 40px;
+    transition: all 0.5s;
+    display: inline;
+}
+
+.content_footer_link li a i {
+    font-size: 25px;
+}
+
+.content_footer_link li a:hover {
+    border-right: 3px solid #73747a;
+    border-left: 3px solid #73747a;
+    border-radius: 20px;
+    width: 50px;
+    display: inline-block;
+}
+
+.content_footer_link {
+    margin-top: 12px;
+}
+
+.content_footer_down {
+ background-color: #73747ac7;
+ border-top: 3px solid #73747a;
+ flex-wrap: nowrap;
+}
+
+.content_footer_item  {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: "roboto" , sans-serif;
+    justify-content: center;
+
+}
+
+.content_footer_item a {
+ font-size: 15px;
+}
+
+.content_footer_item h5 {
+    font-size: 20px;
+}
+
+ 
+ }
+
+/* modificamos el alojamiento */
+
+.carousel-item {
+    height: 350px;
+}
+
+.carusel-item img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+@media only screen and (min-width: 960px){ 
+    .content_section_down{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: self-start;
+    }
+
+    .card-body h5 {
+        font-size: 20px;
+    }
+
+    .card-body p {
+        font-size: 15px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 150px
+    }
+
+    .card {
+        width: 250px;
+        margin: 20px 0px;
+    }
+
+    .carousel-inner {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .carousel-item {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content_section_up {
+        height: 400px;
+    }
+
+}
